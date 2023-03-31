@@ -1,6 +1,7 @@
-author: john doe
+author: jhnnsrs
 entrypoint: app
 identifier: reaktor
+requirements: []
 scopes:
 - read
-version: latest
+version: dev

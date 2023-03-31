@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  reaktor-dev:
+    build: .
+
+networks:
+  default:
+    external:
+      name: dev

@@ -3,8 +3,7 @@ from rekuest.contrib.fakts.websocket_agent_transport import FaktsWebsocketAgentT
 
 
 from arkitekt.apps.fluss import FlussApp
-from arkitekt.apps.unlok import UnlokApp
-from arkitekt.apps.rekuest import ArkitektRekuest, RekuestApp
+from arkitekt.apps.rekuest import ArkitektRekuest
 from arkitekt.apps import Arkitekt
 from fakts.grants.remote.device_code import DeviceCodeGrant
 from fakts.fakts import Fakts
@@ -14,9 +13,6 @@ from herre.grants.oauth2.refresh import RefreshGrant
 from herre.grants.fakts import FaktsGrant
 from fakts.discovery import StaticDiscovery
 from herre import Herre
-from arkitekt.apps.fluss import ConnectedFluss
-import logging
-from rich.logging import RichHandler
 
 class ConnectedApp(Arkitekt, FlussApp):
     pass

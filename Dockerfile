@@ -1,0 +1,23 @@
+FROM python:3.10
+LABEL maintainer="jhnnsrs@gmail.com"
+
+
+# Install dependencies
+RUN pip install poetry rich
+ENV PYTHONUNBUFFERED=1
+
+# Copy dependencies
+COPY pyproject.toml /
+RUN poetry config virtualenvs.create false 
+RUN poetry install
+
+
+# Install Application
+RUN mkdir /workspace
+ADD . /workspace
+WORKDIR /workspace
+
+CMD python run.py
+
+
+
