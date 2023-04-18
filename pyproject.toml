@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10,<=3.11"
-arkitekt = {extras = ["cli"], version = "^0.4.70"}
-reaktion = "^0.1.12"
+arkitekt = { extras = ["cli"], version = "^0.4.72" }
+reaktion = "^0.1.14"
 
 
 [build-system]

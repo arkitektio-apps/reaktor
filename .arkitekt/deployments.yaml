@@ -1,86 +1,12 @@
 deployments:
 - author: jhnnsrs
-  command: python run.py
-  created_at: '2023-03-31T07:17:49.654559'
-  definitions:
-  - args:
-    - annotations: []
-      assign_widget:
-        kind: SearchWidget
-        query: "query search_flows($search: String, $values: [ID]) {\n  options: flows(name:\
-          \ $search, ids: $values) {\n    value: id\n    label: name\n  }\n}"
-        ward: fluss
-      identifier: '@fluss/flow'
-      key: flow
-      kind: STRUCTURE
-      nullable: false
-    - annotations: []
-      description: The name of this Incarnation
-      key: name
-      kind: STRING
-      nullable: true
-    - annotations: []
-      assign_widget:
-        as_paragraph: true
-        kind: StringWidget
-      description: The name of this Incarnation
-      key: description
-      kind: STRING
-      nullable: true
-    description: Deploys a Flow as a Template
-    interface: deploy_graph
-    interfaces:
-    - fluss:deploy
-    kind: FUNCTION
-    name: Deploy Flowd
-    returns:
-    - annotations: []
-      identifier: '@rekuest/template'
-      key: return0
-      kind: STRUCTURE
-      nullable: false
-  - args:
-    - annotations: []
-      assign_widget:
-        kind: SearchWidget
-        query: "query search_flows($search: String, $values: [ID]) {\n  options: flows(name:\
-          \ $search, ids: $values) {\n    value: id\n    label: name\n  }\n}"
-        ward: fluss
-      identifier: '@fluss/flow'
-      key: flow
-      kind: STRUCTURE
-      nullable: false
-    description: Undeploys graph, no user will be able to reserve this graph anymore
-    interface: undeploy_graph
-    interfaces: []
-    kind: FUNCTION
-    name: Undeploy Flow
-    returns: []
-  - args:
-    - annotations: []
-      assign_widget:
-        kind: SliderWidget
-        max: 100
-        min: 0
-      default: 4
-      description: The interval in seconds. Defaults to 4.
-      key: interval
-      kind: INT
-      nullable: false
-    description: A simple timer that prints the current time every interval seconds
-    interface: timer
-    interfaces: []
-    kind: GENERATOR
-    name: Timer
-    returns:
-    - annotations: []
-      key: return0
-      kind: INT
-      nullable: false
+  command: arkitekt run port
+  created_at: '2023-04-18T12:17:59.717734'
+  definitions: []
   entrypoint: app
   identifier: reaktor
-  image: jhnnsrs/reaktor:dev
+  image: jhnnsrs/reaktor:0.0.1
   requirements: []
   scopes:
   - read
-  version: dev
+  version: 0.0.1

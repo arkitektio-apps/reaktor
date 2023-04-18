@@ -149,10 +149,10 @@ async def main(token, url, instance):
 
 
 @click.command()
-@click.option("--token", type=click.STRING, envvar="FAKT_TOKEN", required=True)
-@click.option("--url", type=click.STRING, envvar="FAKT_URL", required=True)
+@click.option("--token", type=click.STRING, envvar="FAKTS_TOKEN", required=True)
+@click.option("--url", type=click.STRING, envvar="FAKTS_URL", required=True)
 @click.option(
-    "--instance", type=click.STRING, default=socket.gethostname(), required=True
+    "--instance", "-i", help="The fakts instance_id for connection", default="main", envvar="REKUEST_INSTANCE",
 )
 def cli(token, url, instance):
     asyncio.run(main(token, url, instance))
