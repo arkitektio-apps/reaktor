@@ -1,12 +1,12 @@
 deployments:
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-18T12:17:59.717734'
-  definitions: []
-  entrypoint: app
-  identifier: reaktor
-  image: jhnnsrs/reaktor:0.0.1
-  requirements: []
-  scopes:
-  - read
-  version: 0.0.1
+  - author: jhnnsrs
+    command: python run.py
+    created_at: "2023-04-18T12:17:59.717734"
+    definitions: []
+    entrypoint: app
+    identifier: reaktor
+    image: jhnnsrs/reaktor:0.0.1
+    requirements: []
+    scopes:
+      - read
+    version: 0.0.1
