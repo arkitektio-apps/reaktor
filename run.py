@@ -64,7 +64,7 @@ async def main(token, url, instance):
 @click.option("--token", type=click.STRING, envvar="FAKTS_TOKEN", required=True)
 @click.option("--url", type=click.STRING, envvar="FAKTS_URL", required=True)
 @click.option(
-    "--instance", "-i", help="The fakts instance_id for connection", default="main", envvar="REKUEST_INSTANCE",
+    "--instance", "-i", help="Thde fakts instance_id for connection", default="main", envvar="REKUEST_INSTANCE",
 )
 def cli(token, url, instance):
     asyncio.run(main(token, url, instance))
