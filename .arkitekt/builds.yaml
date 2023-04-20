@@ -59,8 +59,7 @@ builds:
     scopes:
     - read
     version: 0.0.4
-latest_build:
-  build_id: 3a6c1b55-9557-4df8-a477-9cc530a8c8e4
+- build_id: da2bf57b-7578-474e-97ae-5bbf0724d841
   builder: port
   manifest:
     author: jhnnsrs
@@ -70,3 +69,34 @@ latest_build:
     scopes:
     - read
     version: 0.0.4
+- build_id: c51321f7-9a42-4d3b-8ded-ac1f2b111acf
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: reaktor
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.4
+- build_id: a39369df-91af-4087-ad67-e4b4a5952b95
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: reaktor
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.5
+latest_build:
+  build_id: a39369df-91af-4087-ad67-e4b4a5952b95
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: reaktor
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.5
