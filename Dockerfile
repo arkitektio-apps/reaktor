@@ -3,8 +3,7 @@ LABEL maintainer="jhnnsrs@gmail.com"
 
 
 # Install dependencies
-RUN pip install "arkitekt[cli]==0.4.86"
-RUN pip install "reaktion==0.1.20"
+RUN pip install "arkitekt[cli,scheduler]==0.4.97"
 
 
 RUN mkdir /workspace
