@@ -1,90 +1,101 @@
 deployments:
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-18T12:17:59.717734"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.1
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.1
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-18T12:35:44.588438"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.2
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.2
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-20T13:20:04.004558"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.3
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.3
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-20T13:30:07.615151"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.4
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.4
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-20T14:18:25.704787"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.5
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.5
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-21T16:43:36.485071"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.6
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.6
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-21T16:58:14.949210"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.7
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.7
-  - author: jhnnsrs
-    command: python run.py
-    created_at: "2023-04-28T16:24:59.847474"
-    definitions: []
-    entrypoint: app
-    identifier: reaktor
-    image: jhnnsrs/reaktor:0.0.8
-    requirements: []
-    scopes:
-      - read
-    version: 0.0.8
-latest_deployment: "2023-04-28T16:25:20.529810"
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-18T12:17:59.717734'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.1
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.1
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-18T12:35:44.588438'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.2
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.2
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-20T13:20:04.004558'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.3
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.3
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-20T13:30:07.615151'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.4
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.4
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-20T14:18:25.704787'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.5
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.5
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-21T16:43:36.485071'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.6
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.6
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-21T16:58:14.949210'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.7
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.7
+- author: jhnnsrs
+  command: python run.py
+  created_at: '2023-04-28T16:24:59.847474'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.8
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.8
+- author: jhnnsrs
+  command: arkitekt run port
+  created_at: '2023-05-02T14:32:04.934423'
+  definitions: []
+  entrypoint: app
+  identifier: reaktor
+  image: jhnnsrs/reaktor:0.0.9
+  requirements: []
+  scopes:
+  - read
+  version: 0.0.9
+latest_deployment: '2023-05-02T14:32:32.783007'
