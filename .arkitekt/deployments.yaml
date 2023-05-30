@@ -153,4 +153,15 @@ deployments:
     scopes:
       - read
     version: 0.0.14
-latest_deployment: "2023-05-04T19:12:15.337537"
+  - author: jhnnsrs
+    command: python run.py
+    created_at: "2023-05-30T16:23:30.560895"
+    definitions: []
+    entrypoint: app
+    identifier: reaktor
+    image: jhnnsrs/reaktor:0.2.0
+    requirements: []
+    scopes:
+      - read
+    version: 0.2.0
+latest_deployment: "2023-05-30T16:23:49.640686"
