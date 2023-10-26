@@ -1,25 +1,5 @@
 builds:
-- build_id: 56c3186e-1145-4a83-87f0-25707c1999a0
-  builder: arkitekt.builders.port
-  manifest:
-    author: jhnnsrs
-    entrypoint: app
-    identifier: reaktor
-    requirements: []
-    scopes:
-    - read
-    version: 0.0.1
-- build_id: a1032510-451a-4a1d-9bdb-c250619fa0c9
-  builder: arkitekt.builders.port
-  manifest:
-    author: jhnnsrs
-    entrypoint: app
-    identifier: reaktor
-    requirements: []
-    scopes:
-    - read
-    version: 0.0.1
-- build_id: a2d8120f-8112-4ad9-834c-9bef8da417c6
+- build_id: 96be322c-9a97-452e-95c0-5b8674c0bfd9
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -29,7 +9,7 @@ builds:
     scopes:
     - read
     version: 0.0.2
-- build_id: c2cdd715-d68f-4e2f-b607-372e0506542e
+- build_id: a18b5043-953e-4fc9-906b-0dff14d7e07b
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -38,9 +18,9 @@ builds:
     requirements: []
     scopes:
     - read
-    version: 0.0.2
+    version: 0.0.3
 latest_build:
-  build_id: c2cdd715-d68f-4e2f-b607-372e0506542e
+  build_id: a18b5043-953e-4fc9-906b-0dff14d7e07b
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -49,4 +29,4 @@ latest_build:
     requirements: []
     scopes:
     - read
-    version: 0.0.2
+    version: 0.0.3

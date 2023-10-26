@@ -1,17 +1,17 @@
 deployments:
-- build_id: c2cdd715-d68f-4e2f-b607-372e0506542e
+- build_id: a18b5043-953e-4fc9-906b-0dff14d7e07b
   builder: arkitekt.builders.port
   definitions: []
-  deployed_at: '2023-09-21T13:12:47.020411'
-  deployment_id: 823ffcd7-215c-4a0e-8ed8-65a29fbc1fcd
-  image: jhnnsrs/reaktor:0.0.2
+  deployed_at: '2023-10-26T16:47:54.561712'
+  deployment_id: 61b026ba-1951-4a60-baf4-0c1ea56c0640
+  image: jhnnsrs/reaktor:0.0.3
   manifest:
     author: jhnnsrs
-    created_at: '2023-09-21T13:12:20.712578'
+    created_at: '2023-10-26T16:47:26.237712'
     entrypoint: app
     identifier: reaktor
     requirements: []
     scopes:
     - read
-    version: 0.0.2
-latest_deployment: '2023-09-21T13:12:47.020437'
+    version: 0.0.3
+latest_deployment: '2023-10-26T16:47:54.561738'

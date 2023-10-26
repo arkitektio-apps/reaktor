@@ -3,7 +3,7 @@ LABEL maintainer="jhnnsrs@gmail.com"
 
 
 # Install dependencies
-RUN pip install "arkitekt[all]==0.5.45"
+RUN pip install "arkitekt[all]==0.5.56"
 
 
 RUN mkdir /workspace
