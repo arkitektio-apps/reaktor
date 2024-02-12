@@ -19,8 +19,7 @@ builds:
     scopes:
     - read
     version: 0.0.3
-latest_build:
-  build_id: a18b5043-953e-4fc9-906b-0dff14d7e07b
+- build_id: c18613cf-1286-40c1-8118-49dfa4e6b505
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -29,4 +28,15 @@ latest_build:
     requirements: []
     scopes:
     - read
-    version: 0.0.3
+    version: 0.0.4
+latest_build:
+  build_id: c18613cf-1286-40c1-8118-49dfa4e6b505
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: reaktor
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.4
